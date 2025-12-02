@@ -96,6 +96,7 @@ $html  = '<div class="plugin plugin-about">';
 // Datendatei zum aktuellen Jahr ermitteln: 
 $LphpDatei = PATH_PLUGINS."losungen".DS."dat".DS."losungphp" . date("Y") . ".dat";
 
+
 // Die Daten aus der Datendatei einlesen:
 $LphpFp = @fopen($LphpDatei,"rb");
 if ($LphpFp){
